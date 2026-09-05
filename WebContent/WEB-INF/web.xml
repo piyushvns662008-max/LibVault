@@ -29,26 +29,26 @@
         <servlet-class>com.libvault.servlet.BookServlet</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>BookServlet</servlet-name>
-        <url-pattern>/BookServlet</url-pattern>
-    </servlet-mapping>
+    <servlet-name>BookServlet</servlet-name>
+    <url-pattern>/book</url-pattern>
+</servlet-mapping>
 
     <servlet>
         <servlet-name>AdminServlet</servlet-name>
         <servlet-class>com.libvault.servlet.AdminServlet</servlet-class>
     </servlet>
-    <servlet-mapping>
-        <servlet-name>AdminServlet</servlet-name>
-        <url-pattern>/AdminServlet</url-pattern>
-    </servlet-mapping>
+     <servlet-mapping>
+    <servlet-name>AdminServlet</servlet-name>
+    <url-pattern>/admin</url-pattern>
+</servlet-mapping>
 
     <servlet>
         <servlet-name>ContactServlet</servlet-name>
         <servlet-class>com.libvault.servlet.ContactServlet</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>ContactServlet</servlet-name>
-        <url-pattern>/ContactServlet</url-pattern>
-    </servlet-mapping>
+    <servlet-name>ContactServlet</servlet-name>
+    <url-pattern>/contact</url-pattern>
+</servlet-mapping>
 
 </web-app>
